@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Tni_Cms>
+      <version>0.1.0</version>
+    </Tni_Cms>
+  </modules>
+  <frontend>
+    <routers>
+      <cms>
+        <use>standard</use>
+          <args>
+            <module>Tni_Cms</module>
+            <frontName>cms</frontName>
+          </args>
+      </cms>
+    </routers>
+	<layout>
+      <updates>
+        <cms>
+          <file>cms.xml</file>
+        </cms>
+      </updates>
+    </layout>
+  </frontend>
+  <global>
+  </global>
+</config> 

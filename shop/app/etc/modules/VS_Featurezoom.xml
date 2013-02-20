@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<VS_Featurezoom>
+		    <active>true</active>
+		    <codePool>community</codePool>
+		    <depends>
+			<Mage_Catalog />
+		    </depends>
+		</VS_Featurezoom>
+	</modules>
+</config>

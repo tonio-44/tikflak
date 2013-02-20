@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--layout version="0.1.0">
+  <default translate="label">
+    <reference name="top.menu">
+      <block type="custommenu/custommenu" after="-" name="custommenu.top">
+        <action method="setMenuLabel"><value>main_menu</value></action>
+        <action method="setHtmlId"><value>nav</value></action>
+      </block>
+    </reference>
+  </default>
+</layout-->
